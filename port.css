@@ -17,26 +17,76 @@ body{
   -webkit-font-smoothing:antialiased;
   line-height:1.45;
 }
-.container{max-width:900px;margin:0 auto;padding:28px}
-.site-header{background:linear-gradient(90deg,#fff, #f3f4f6);border-bottom:1px solid #e6e7eb}
-.site-header .container{display:flex;flex-direction:column;align-items:flex-start;padding:36px 28px}
-.name{margin:0;font-size:1.6rem}
-.tagline{margin:6px 0 0;color:var(--muted)}
-main{padding:28px}
-section{margin-bottom:26px}
-h2{margin:0 0 14px;font-size:1.1rem}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gap)}
-.card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(16,24,40,0.04)}
-.card img{width:100%;height:160px;object-fit:cover;border-radius:8px;margin-bottom:12px;display:block}
-.card h3{margin:0 0 8px;font-size:1rem}
-.muted{color:var(--muted);font-size:0.9rem}
-a{color:var(--accent);text-decoration:none}
-.site-footer{border-top:1px solid #e6e7eb;padding:20px;background:transparent}
+.container{
+  max-width:900px;
+  margin:0 auto;
+  padding:28px
+}
+.site-header{
+  background:linear-gradient(90deg,#fff, #f3f4f6);
+  border-bottom:1px solid #e6e7eb
+}
+.site-header .container{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  padding:36px 28px
+}
+.name{
+  margin:0;
+  font-size:1.6rem}
+.tagline{
+  margin:6px 0 0;
+  color:var(--muted)
+}
+main{
+  padding:28px
+}
+section{
+  margin-bottom:26px
+}
+h2{
+  margin:0 0 14px;
+  font-size:1.1rem
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:var(--gap)
+}
+.card{
+  background:var(--card);
+  padding:18px;
+  border-radius:var(--radius);
+  box-shadow:0 6px 18px rgba(16,24,40,0.04)
+}
+.card img{
+  width:100%;height:160px;
+  object-fit:cover;
+  border-radius:8px;
+  margin-bottom:12px;
+  display:block
+}
+.card h3{
+  margin:0 0 8px;
+  font-size:1rem
+}
+.muted{
+  color:var(--muted);
+  font-size:0.9rem
+}
+a{
+  color:var(--accent);
+  text-decoration:none
+}
+.site-footer{
+  border-top:1px solid #e6e7eb;
+  padding:20px;
+  background:transparent
+}
 
 @media (max-width:640px){
   .grid{grid-template-columns:1fr}
   .site-header .container{padding:22px}
   .container{padding:18px}
 }
-
-/* Quick edit notes: change colors in :root, replace placeholder text in port.html */
